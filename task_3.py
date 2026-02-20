@@ -8,7 +8,6 @@ prog=py_prog_lang[-9:-20:-1]
 lang=py_prog_lang[17:26:1]
 print(py+prog+lang)		#Reverse only the middle portion of the string.
 
-
 #Create a new string that contains:Characters at prime index positions only.
 s="PythonProgrammingLanguage"	#2,3,5,7,9,11,13,15,17,19
 print(s[1:3:1]+s[4::2])		#prime positions only
@@ -16,9 +15,6 @@ neg_even_ind=print(s[-2::-2])	#Characters at negative even index positions only.
 s_t=("aeiouAEIOU")
 vowel_count=(s[::1].count('a')+s[::1].count('e')+s[::1].count('i')+s[::1].count('o')+s[::1].count('u'))
 print(vowel_count)		#vowels count
-
-
-
 
 #part2
 #Create a list of numbers from 1 to 20 dynamically.
@@ -34,7 +30,6 @@ list_mi=[1,2,3]
 mirror_list=list_mi+list_mi[::-1]	
 print(mirror_list)			#Create a mirrored list:
 print(numb[1:-1])			#Remove the first and last element using slicing
-
 
 #part4
 #Create a tuple:
