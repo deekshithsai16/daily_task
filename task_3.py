@@ -10,10 +10,12 @@ print(py+prog+lang)		#Reverse only the middle portion of the string.
 
 
 #Create a new string that contains:Characters at prime index positions only.
-pr_ind="PythonProgrammingLanguage"	#2,3,5,7,9,11,13,15,17,19
+s="PythonProgrammingLanguage"	#2,3,5,7,9,11,13,15,17,19
+print(s[1:3:1]+s[4::2])		#prime positions only
+neg_even_ind=print(s[-2::-2])	#Characters at negative even index positions only.
 
-neg_even_ind=print(pr_ind[-2::-2])	#Characters at negative even index positions only.
-
+vowel_count=(s[::1].count('a')+s[::1].count('e')+s[::1].count('i')+s[::1].count('o')+s[::1].count('u'))
+print(vowel_count)		#vowels count
 
 #part2
 #Create a list of numbers from 1 to 20 dynamically.
